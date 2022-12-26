@@ -1,0 +1,71 @@
+
+
+/*total reset */
+*{
+
+  margin:0px;
+  padding:0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*
+background-color: black(body{}),
+background-color:green(main{}) and
+background-color:blue(section{})
+were called for better explanation from the site cradle phase
+*/
+
+html, body{
+
+width: 100vw;
+height: 100vh;
+background-color: black;
+
+}
+
+body{
+
+  /*to get wood background*/
+  background: url('../IMGs/fundo-madeira.jpg');
+
+  /*once wood background is big, so i need organizing for reposition:*/
+
+background-repeat: no-repeat;
+background-image: top center;
+background-size:cover;/*it will cover all screen*/
+background-attachment: fixed;
+
+}
+
+main{
+
+ position: relative;
+
+height: 100vh;
+background-color: green;
+
+
+}
+/*position: relative // position: absolute => allows centralize content below with help top: 50% and left: 50% and tranform: translate(-50%, -50%).*/
+
+section#cellphone{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+/*
+height&width can be set through GIMP
+(looking for image => to click right button => GIMP => image bar => property of image)
+*/
+height: 627px;
+width:  311px;
+
+/*background-color: blue;
+after organizing image can i burn background color*/
+
+
+background: url('../IMGs/frame-iphone.png');
+background-repeat: no-repeat;
+
+}
