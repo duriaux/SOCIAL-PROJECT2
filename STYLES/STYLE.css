@@ -1,5 +1,5 @@
 
-
+@charset "UTF 8";
 /*total reset */
 *{
 
@@ -41,7 +41,7 @@ main{
  position: relative;
 
 height: 100vh;
-background-color: green;
+/*background-color: green;*/
 
 
 }
